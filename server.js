@@ -16,7 +16,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //Home Route
 app.get('/', (req,res) => {
-  return res.send('home')
+  return res.render('home')
 })
 
 //Workshop Route
@@ -24,9 +24,18 @@ app.get('/workshops', (req,res) => {
   return res.send('workshops')
 })
 
+//Events Route
+app.get('/events', (req,res) => {
+  return res.send('events')
+})
+
 //Guest Lectures Route
 app.get('/guestlectures', (req,res)=> {
   return res.send('guestlectures')
+})
+
+app.get('*', (req,res) => {
+  return res.send('ERROR 404 : Page not found.')
 })
 //Starting Server
 app.listen(3000,()=> {
