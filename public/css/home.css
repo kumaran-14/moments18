@@ -24,11 +24,12 @@ body,html{
 	box-shadow: none !important;
 	height: 15vh !important;
 	z-index: 2000;
+	/*border: 1px solid yellow;*/
 }
 
 
 #welcome{
-	background-image: url(bg3.jpeg);
+	background-image: url(bg1.jpeg);
 	/*background:linear-gradient(0deg,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(background.jpg);*/
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -99,4 +100,14 @@ body,html{
 	font-size: 2.5em;
 	padding-bottom: 7vh;
 	padding-top: 15vh;
+}
+
+
+@media only screen and (max-width: 991px){
+	#navbar{
+		height: initial !important;
+	}
+	#logo-welcome{
+		width: 80vw;
+	}
 }
