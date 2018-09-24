@@ -7,7 +7,7 @@ const app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'pug');
+app.set('view engine', 'ejs');
 
 //middlewares
 app.use(bodyParser.json())
@@ -19,23 +19,27 @@ app.get('/', (req,res) => {
   return res.render('home')
 })
 
+app.get('/home', (req,res) => {
+  return res.render('home')
+})
+
 //Workshop Route
 app.get('/workshops', (req,res) => {
-  return res.send('workshops')
+  return res.render('workshops')
 })
 
 //Events Route
 app.get('/events', (req,res) => {
-  return res.send('events')
+  return res.render('events')
 })
 
 //Guest Lectures Route
 app.get('/guestlectures', (req,res)=> {
-  return res.send('guestlectures')
+  return res.render('guestlectures')
 })
 
 app.get('*', (req,res) => {
-  return res.send('ERROR 404 : Page not found.')
+  return res.render('ERROR 404 : Page not found.')
 })
 //Starting Server
 app.listen(3000,()=> {

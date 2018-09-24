@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "body-parser": "*",
+    "ejs": "^2.6.1",
     "express": "*",
-    "path": "*",
-    "pug": "*"
+    "path": "*"
   },
   "devDependencies": {
     "nodemon": "^1.18.4"
