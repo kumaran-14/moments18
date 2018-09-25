@@ -108,6 +108,9 @@ body{
 	.w-card{
 		height: 55vh;
 	}
+	.view-more{
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 991px){
@@ -119,5 +122,8 @@ body{
 		margin-left: auto;
 		margin-right: auto;
 		/*height: 60vh;*/
+	}
+	.view-more{
+		color: #FFDE00;
 	}
 }
