@@ -1,7 +1,7 @@
 {
-  "name": "nodetemplate",
+  "name": "Moments",
   "version": "1.0.0",
-  "description": "My personal node template.",
+  "description": "Moments Nitt 2018 Website",
   "main": "server.js",
   "author": "Kumaran G",
   "license": "ISC",

@@ -127,3 +127,8 @@ body{
 		color: #FFDE00;
 	}
 }
+.register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
