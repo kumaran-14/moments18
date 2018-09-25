@@ -25,6 +25,7 @@ body{
 	min-height: 80vh;
 	/*border: 1px solid yellow;*/
 	margin-top: 5vh;
+	padding-bottom: 10vh;
 }
 
 .w-card{
@@ -34,7 +35,6 @@ body{
 	padding-right: 0 !important;
 	background-color: #202e31;
 	color: white;
-	height: 55vh;
 	overflow: hidden;
 	margin-top: 10vh;
 	/*position: relative;*/
@@ -82,10 +82,6 @@ body{
 	cursor: pointer;
 }
 
-.w-desc:hover{
-	top: -30vh;
-}
-
 .w-card img{
 	max-height: 80%;
 }
@@ -103,4 +99,25 @@ body{
 	font-size: 1.1em;
 	text-align: center;
 	padding-top: 4vh;
+}
+
+@media only screen and (min-width: 992px){
+	.w-desc:hover{
+		top: -30vh;
+	}
+	.w-card{
+		height: 55vh;
+	}
+}
+
+@media only screen and (max-width: 991px){
+	.w-card .card-text{
+		display: none;
+	}
+	.w-card{
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+		/*height: 60vh;*/
+	}
 }

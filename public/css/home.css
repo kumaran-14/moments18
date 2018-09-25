@@ -46,7 +46,7 @@ body,html{
 
 #about{
 	background-color: #ffffff;
-	min-height: 95vh;
+	min-height: 75vh;
 }
 
 #about .head{
@@ -60,6 +60,8 @@ body,html{
 #about .desc{
 	font-family: custom_regular;
 	padding: 6vw;
+	padding-left: 12vw;
+	padding-right: 12vw;
 	font-size: 1.3em;
 }
 
@@ -69,7 +71,9 @@ body,html{
 }
 
 .members-img{
-	width: 100%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 	border-radius: 50%;
 }
 

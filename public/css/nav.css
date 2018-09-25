@@ -15,7 +15,7 @@
 }
 
 #navbar .nav-item a{
-	color: #FBFBFB;
+	color: inherit;
 	padding-left: 2vw;
 	padding-right: 2vw;
 }
@@ -25,6 +25,12 @@
 	box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
 	font-family: custom_bold;
 }
-#navbar .navbar-toggler-icon{
-	color: yellow;
+.nav-item{
+	color: #FBFBFB;
+	transition: 0.6s all;
+}
+
+.nav-item:hover{
+	background-color: rgba(255, 222, 0, 0.8);
+	color: #191919 !important;
 }
