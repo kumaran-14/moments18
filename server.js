@@ -39,7 +39,7 @@ app.get('/guestlectures', (req,res)=> {
 })
 
 app.get('*', (req,res) => {
-  return res.render('ERROR 404 : Page not found.')
+  return res.send('ERROR 404 : Page not found.')
 })
 //Starting Server
 app.listen(3000,()=> {
