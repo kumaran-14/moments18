@@ -1,0 +1,30 @@
+@font-face {
+    font-family: custom_bold;
+    src: url(tecnico_bold.ttf);
+}
+
+@font-face {
+    font-family: custom_regular;
+    src: url(tecnico_regular.ttf);
+}
+
+
+#navbar .navbar-brand{
+	padding-left: 5vw;
+	color: #FBFBFB;
+}
+
+#navbar .nav-item a{
+	color: #FBFBFB;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+#navbar{
+	background-color: rgba(30, 41, 56, 0.9);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+	font-family: custom_bold;
+}
+#navbar .navbar-toggler-icon{
+	color: yellow;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "nodetemplate",
+  "version": "1.0.0",
+  "description": "My personal node template.",
+  "main": "server.js",
+  "author": "Kumaran G",
+  "license": "ISC",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "ejs": "^2.6.1",
+    "express": "*",
+    "path": "*"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
