@@ -67,6 +67,24 @@
 	color: inherit;
 }
 
+.social-media li{
+	display: inline;
+	padding-right: 1.5em;
+	margin-bottom: 1em;
+}
+
+.social-media a{
+	color:#FBFBFB;
+}
+
+.social-media a:hover{
+	color:#FFDE00;
+}
+
+.social-media ul{
+	margin-top: 1em;
+	padding: 0;
+}
 @media only screen and (max-width: 991px){
 	#footer{
 		padding-left: 10vw;
