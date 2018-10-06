@@ -1,0 +1,75 @@
+@font-face {
+    font-family: custom_bold;
+    src: url(tecnico_bold.ttf);
+}
+
+@font-face {
+    font-family: custom_regular;
+    src: url(tecnico_regular.ttf);
+}
+
+#nav_sponsors{
+	border-bottom: 4px solid #FFDE00;
+}
+
+body{
+	background-color: #f3f3f3;
+	min-height: 100vh;
+}
+
+#about{
+	background-color: #f3f3f3;
+  min-height: 30vh
+}
+
+.head{
+	padding: 5vh;
+	font-family: custom_bold;
+	font-size: 2.6em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.desc{
+	font-family: custom_regular;
+	padding-left: 12vw;
+	padding-right: 12vw;
+	font-size: 1.3em;
+  text-align: center;
+}
+
+.sub-head{
+	padding: 2.5vh;
+	font-family: custom_bold;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+  text-decoration: underline;
+}
+
+.card {
+  border:none;
+  min-height:30vh;
+}
+.card a {
+  font-weight: bold;
+  color:inherit;
+  font-size: 1.5em;
+}
+
+.card-body{
+  background-color: #f3f3f3;
+}
+
+@media only screen and (min-width: 992px){
+
+}
+
+@media only screen and (max-width: 991px){
+
+}
+.register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
