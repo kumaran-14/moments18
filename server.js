@@ -28,6 +28,12 @@ app.get('/workshops', (req,res) => {
   return res.render('workshops')
 })
 
+//Workshop Route
+app.get('/guestlectures', (req,res) => {
+  return res.render('guestlectures')
+})
+
+
 //Events Route
 app.get('/events', (req,res) => {
   return res.render('events')
