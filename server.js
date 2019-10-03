@@ -28,7 +28,7 @@ app.get('/workshops', (req,res) => {
   return res.render('workshops')
 })
 
-//Workshop Route
+//Guestlectures Route
 app.get('/guestlectures', (req,res) => {
   return res.render('guestlectures')
 })
