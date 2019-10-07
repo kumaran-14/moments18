@@ -3,6 +3,6 @@
 "description":"moments-19 website NITT",
 "repositories":"",
 "logo":"",
-"keywords":["node","express","ejs","body-parser"],
+"keywords":[],
 "image":"heroku/nodejs",
 }
