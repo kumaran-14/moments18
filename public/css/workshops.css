@@ -73,7 +73,7 @@ body{
 }
 
 .w-desc{
-	border-top: 4px solid #FFDE00;
+	border-top: 4px solid #1acaed;
 	transition: 0.7s all;
 	-webkit-transition: 0.7s all;
 	top: 0;
@@ -124,7 +124,7 @@ body{
 		/*height: 60vh;*/
 	}
 	.view-more{
-		color: #FFDE00;
+		color: #1acaed;
 	}
 }
 .register{
