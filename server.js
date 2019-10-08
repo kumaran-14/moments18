@@ -33,11 +33,6 @@ app.get('/events', (req,res) => {
   return res.render('events')
 })
 
-//Sponsor Route
-app.get('/sponsors', (req, res) => {
-  return res.render('sponsors')
-})
-
 app.get('*', (req,res) => {
   return res.send('ERROR 404 : Page not found.')
 })
