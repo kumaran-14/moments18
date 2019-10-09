@@ -28,7 +28,7 @@
 }
 
 .f-underline{
-	border-bottom:1.5px solid #FFDE00;
+	border-bottom:1.5px solid #1acaed;
 	/*height: 5px;*/
 	width: 4vw;
 	margin: 0;
@@ -54,7 +54,7 @@
 	height: 0;
 	border-top: 0.35em solid transparent;
   	border-bottom: 0.35em solid transparent;
-  	border-left: 0.35em solid #FFDE00;
+  	border-left: 0.35em solid #1acaed;
 }
 
 .ql-text{
@@ -78,7 +78,7 @@
 }
 
 .social-media a:hover{
-	color:#FFDE00;
+	color:#1acaed;
 }
 
 .social-media ul{
