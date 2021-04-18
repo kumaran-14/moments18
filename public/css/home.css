@@ -29,7 +29,7 @@ body,html{
 
 
 #welcome{
-	background-image: url(../img/bg.jpg);
+	background-image: url(../img/background.jpg);
 	/*background:linear-gradient(0deg,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(background.jpg);*/
 	background-repeat: no-repeat;
 	background-size: cover;
