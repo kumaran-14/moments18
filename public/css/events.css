@@ -131,7 +131,9 @@ body{
 		/*height: 60vh;*/
 	}
 	.view-more{
-		color: #1acaed;
+		background-color: #1acaed;
+		text-decoration: none;
+		color: #f3f3f3;
 	}
 }
 .register{

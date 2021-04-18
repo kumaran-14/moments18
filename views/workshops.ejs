@@ -1,20 +1,71 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="icon" href="moments.png" type="image/x-icon">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-		<link rel="stylesheet" href="css/workshops.css">
-	</head>
-	<body>
-		<% include partials/nav.ejs %>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="moments.png" type="image/x-icon">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+		integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/workshops.css">
+</head>
+
+<body>
+	<% include partials/nav.ejs %>
 		<div class="container" id="w-content">
 			<div class="register">
-				<a target = "_blank" href="https://forms.gle/vvB9R4nhj2pmDsh1A" class="btn btn-dark btn-lg">Register Here</a>
+				<a target="_blank" href="https://forms.gle/vvB9R4nhj2pmDsh1A" class="btn btn-dark btn-lg">Register
+					Here</a>
 			</div>
+
+
 			<div class="row">
-				
+				<div class="col-md-1"></div>
+				<div class="col-md-4 w-card card">
+					<img src="workshops21/1.SELF COMPACTING CONCRETE.jpeg" class="card-img-top" alt="">
+					<div class="fluid-container w-desc" data-toggle="modal" data-target="#modal4">
+						<div class="card-title">SELF COMPACTING CONCRETE</div>
+						<div class="card-subtitle">Dr. J. Karthikeyan</div>
+						<div class="card-subtitle"> Associate Professor<br>Department of Civil Engineering<br>NIT Trichy
+						</div>
+						<div class="card-text">
+							The usage of conventional construction materials such as river sand and crushed stone cannot
+							be appreciated for the upcoming decades, because over exploitation of those resources
+							results in severe environmental issues. As a civil engineer have you ever thought about
+							developing a sustainable infrastructure by minimizing the consumption of natural resources?
+							Moments ‘21 brings you an exclusive workshop on producing sustainable self-compacting
+							concrete (SCC) using induction furnace slag as coarse aggregate.
+						</div>
+					</div>
+					<button type="button" class="btn btn-info view-more" data-toggle="modal" data-target="#modal4">view
+						more</button>
+				</div>
+				<!-- <div class="col-md-1"></div> -->
+
+
+				<div class="col-md-2"></div>
+				<div class="col-md-4 w-card card">
+					<img src="workshops21/2. AUTODESK REVIT.jpeg" class="card-img-top" alt="">
+					<div class="fluid-container w-desc" data-toggle="modal" data-target="#modal2">
+						<div class="card-title">AUTODESK REVIT</div>
+						<div class="card-subtitle"> </div>
+						<div class="card-subtitle"></div> 
+						<div class="card-subtitle"></div>
+						<div class="card-text">
+							If design is what intrigues you and dimensions are what you play with, continue reading!
+							This year, Moments is proud to associate itself with a global leader in Educational
+							solutions, Autodesk.
+						</div>
+					</div>
+					<button type="button" class="btn btn-info view-more" data-toggle="modal" data-target="#modal2">view
+						more</button>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+
+			<div class="row">
+
 				<div class="col-md-1"></div>
 				<div class="col-md-4 w-card card">
 					<img src="workshops21/3.RIGID PAVEMENT DESIGN.jpg" class="card-img-top" alt="">
@@ -24,242 +75,270 @@
 						<div class="card-subtitle">Assistant Professor</div>
 						<div class="card-subtitle">Department of Civil Engineering<br>NIT Trichy</div>
 						<div class="card-text">
-							The rigid pavements are generally constructed using cement concrete represented as Pavement Quality Concrete (PQC), which possess higher flexural strength. The design of rigid pavements is based on Westergaard’s analysis, where modulus of subgrade reaction, radius of relative stiffness, radius of wheel load distribution are considered as crucial factors.
+							The rigid pavements are generally constructed using cement concrete represented as Pavement
+							Quality Concrete (PQC), which possess higher flexural strength. The design of rigid
+							pavements is based on Westergaard’s analysis, where modulus of subgrade reaction, radius of
+							relative stiffness, radius of wheel load distribution are considered as crucial factors.
 						</div>
 					</div>
-					<button type="button" class="btn btn-link view-more" data-toggle="modal" data-target="#modal1">view more</button>
+					<button type="button" class="btn btn-info view-more" data-toggle="modal" data-target="#modal1">view
+						more</button>
 				</div>
 
 
-			<div class="col-md-2"></div>
-			<div class="col-md-4 w-card card">
-				<img src="img/ws3.jpg" class="card-img-top" alt="">
-				<div class="fluid-container w-desc" data-toggle="modal" data-target="#modal3">
-					<div class="card-title">SUBSURFACE INVESTIGATION AND PREPARATION OF GEOTECHNICAL DATA REPORT</div>
-					<div class="card-subtitle"> Dr. Sanyam Dangayachr</div>
-					<div class="card-subtitle">Assistant Professor</div> 
-					<div class="card-subtitle">Department of Civil Engineering<br>MNIT Jaipur</div>
-					<div class="card-text">
-						<!-- In the present scenario, the ever increasing demand of modern buildings results in need of more column space, tall structures, ductile and faster construction time. Structures built with RCC do not provide such features and lack the ability to last for hundreds of years. Structural steel structures are becoming popular due to their superior ductile strength, load bearing capacity and sleek structural members. -->
-					</div>
-				</div>
-				<button type="button" class="btn btn-link view-more" data-toggle="modal" data-target="#modal3">view more</button>
-			</div>
-			<div class="col-md-1"></div>
-
-		</div>
-		
-			<div class="row">
-					<div class="col-md-1"></div>
-					<div class="col-md-4 w-card card">
-						<img src="workshops21/1.SELF COMPACTING CONCRETE.jpeg" class="card-img-top" alt="">
-						<div class="fluid-container w-desc"  data-toggle="modal" data-target="#modal4">
-							<div class="card-title">SELF COMPACTING CONCRETE</div>
-							<div class="card-subtitle">Dr. J. Karthikeyan</div>
-							<div class="card-subtitle"> Associate Professor<br>Department of Civil Engineering<br>NIT Trichy</div>
-							<div class="card-text">
-								The usage of conventional construction materials such as river sand and crushed stone cannot be appreciated for the upcoming decades, because over exploitation of those resources results in severe environmental issues. As a civil engineer have you ever thought about developing a sustainable infrastructure by minimizing the consumption of natural resources? Moments ‘21 brings you an exclusive workshop on producing sustainable self-compacting concrete (SCC) using induction furnace slag as coarse aggregate.
-							</div>
-						</div>
-						<button type="button" class="btn btn-link view-more" data-toggle="modal" data-target="#modal4">view more</button>
-					</div>
-					<!-- <div class="col-md-1"></div> -->
-
-				
 				<div class="col-md-2"></div>
 				<div class="col-md-4 w-card card">
-					<img src="workshops21/2. AUTODESK REVIT.jpeg" class="card-img-top" alt="">
-					<div class="fluid-container w-desc"  data-toggle="modal" data-target="#modal2">
-						<div class="card-title">AUTODESK REVIT</div>
-						<!-- <div class="card-subtitle"> Dr.Muthukumaran</div>
-						<div class="card-subtitle">Professor</div> 
-						<div class="card-subtitle">Department of Civil Engineering<br>NIT Trichy</div> -->
+					<img src="img/ws3.jpg" class="card-img-top" alt="">
+					<div class="fluid-container w-desc" data-toggle="modal" data-target="#modal3">
+						<div class="card-title">SUBSURFACE INVESTIGATION AND PREPARATION OF GEOTECHNICAL DATA REPORT
+						</div>
+						<div class="card-subtitle"> Dr. Sanyam Dangayachr</div>
+						<div class="card-subtitle">Assistant Professor</div>
+						<div class="card-subtitle">Department of Civil Engineering<br>MNIT Jaipur</div>
 						<div class="card-text">
-							If design is what intrigues you and dimensions are what you play with, continue reading! This year, Moments is proud to associate itself with a global leader in Educational solutions, Autodesk.
+							All structures are built either on the earth, in the earth, or with the earth.
+							To a civil engineer, earth, both soil and rock, not only forms the foundation for their
+							structures but also
+							constitutes a large portion of the construction materials.
 						</div>
 					</div>
-					<button type="button" class="btn btn-link view-more" data-toggle="modal" data-target="#modal2">view more</button>
+					<button type="button" class="btn btn-info view-more" data-toggle="modal" data-target="#modal3">view
+						more</button>
 				</div>
 				<div class="col-md-1"></div>
+
 			</div>
-			
-		<div class="col-6 col-md-4"></div>
-	</div>
+
+			<div class="col-6 col-md-4"></div>
+		</div>
 		</div>
 
-		<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-		  <div class="modal-dialog modal-dialog-centered" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <h5 class="modal-title" id="exampleModalCenterTitle">RIGID PAVEMENT DESIGN</h5>
-		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-		          <span aria-hidden="true">&times;</span>
-		        </button>
-		      </div>
-		      <div class="modal-subtitle">
-		      	<div>Dr.V.Sunitha</div>
-		        <div>Assistant Professor</div>
-		        <div>Department of Civil Engineering<br>NIT Trichy</div>
-		      </div>
-		      <div class="modal-body">
-		    	The rigid pavements are generally constructed using cement concrete represented as Pavement Quality Concrete (PQC), which possess higher flexural strength. The design of rigid pavements is based on Westergaard’s analysis, where modulus of subgrade reaction, radius of relative stiffness, radius of wheel load distribution are considered as crucial factors. The dimension of the rigid pavement is finite, connected by dowel bars and tie bars in both lateral and longitudinal direction. The loading position also plays a key role in the distribution of stresses for which three critical loading positions were considered Viz. Interior, edge and corner. The cumulative damage due to top down cracking and bottom up cracking is analysed for the proposed traffic. The outcome of the rigid pavement design includes stress calculation, arriving optimum PQC thickness, dowel bar design and joint details for an estimated traffic proposed.
-				<br>
-				A huge shoutout to all the Transportation enthusiasts out there to attend this mind-boggling workshop which will make you an expert in designing a Rigid pavement
-				<div>
-						Workshop rate : 250/-
-						<h5>Timing:</h5>
-						25 th April, 9:30AM – 12:00PM<br>
-						Platform: MS Teams <br>
-						Registration Deadline: 23/04/2021 by 10PM
-				</div>  
+		<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalCenterTitle">RIGID PAVEMENT DESIGN</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-subtitle">
+						<div>Dr.V.Sunitha</div>
+						<div>Assistant Professor</div>
+						<div>Department of Civil Engineering<br>NIT Trichy</div>
+					</div>
+					<div class="modal-body">
+						The rigid pavements are generally constructed using cement concrete represented as Pavement
+						Quality Concrete (PQC), which possess higher flexural strength. The design of rigid pavements is
+						based on Westergaard’s analysis, where modulus of subgrade reaction, radius of relative
+						stiffness, radius of wheel load distribution are considered as crucial factors. The dimension of
+						the rigid pavement is finite, connected by dowel bars and tie bars in both lateral and
+						longitudinal direction. The loading position also plays a key role in the distribution of
+						stresses for which three critical loading positions were considered Viz. Interior, edge and
+						corner. The cumulative damage due to top down cracking and bottom up cracking is analysed for
+						the proposed traffic. The outcome of the rigid pavement design includes stress calculation,
+						arriving optimum PQC thickness, dowel bar design and joint details for an estimated traffic
+						proposed.
+						<br>
+						A huge shoutout to all the Transportation enthusiasts out there to attend this mind-boggling
+						workshop which will make you an expert in designing a Rigid pavement
+						<div>
+							Workshop rate : 250/-
+							<h5>Timing:</h5>
+							25 th April, 9:30AM – 12:00PM<br>
+							Platform: MS Teams <br>
+							Registration Deadline: 23/04/2021 by 10PM
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
 			</div>
-		      <div class="modal-footer">
-		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-		      </div>
-		    </div>
-		  </div>
 		</div>
 
-		<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-		  <div class="modal-dialog modal-dialog-centered" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <h5 class="modal-title" id="exampleModalCenterTitle">AUTODESK REVIT</h5>
-		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-		          <span aria-hidden="true">&times;</span>
-		        </button>
-		      </div>
-		      <div class="modal-subtitle">
-				  <!-- <div>By Dr.Muthukumaran</div>
+		<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalCenterTitle">AUTODESK REVIT</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-subtitle">
+						<!-- <div>By Dr.Muthukumaran</div>
 				  <div>Professor</div>
 		          <div>Department of Civil Engineering<br>NIT Trichy</div> -->
-		      </div>
-		      <div class="modal-body">
-				If design is what intrigues you and dimensions are what you play with, continue reading!
-				<br>
-				This year, Moments is proud to associate itself with a global leader in Educational solutions, Autodesk.
-				<br>		
-				As a part of this association, Moments is elated to present a workshop on Autodesk Revit, a 3D Design software which is used primarily by leading Civil Engineering Brands across the globe to give a fresh breath of life to their ideas.To understand the workings of this revolutionary software, register right away!
-				<div>
-						Workshop rate : 300/-
-						<h5>Timing:</h5>
-						24 th April, 2:30 PM – 5:30 PM<br>
-						Platform: MS Teams<br>
-						Registration Deadline: 23/04/2021 by 10PM
+					</div>
+					<div class="modal-body">
+						If design is what intrigues you and dimensions are what you play with, continue reading!
+						<br>
+						This year, Moments is proud to associate itself with a global leader in Educational solutions,
+						Autodesk.
+						<br>
+						As a part of this association, Moments is elated to present a workshop on Autodesk Revit, a 3D
+						Design software which is used primarily by leading Civil Engineering Brands across the globe to
+						give a fresh breath of life to their ideas.To understand the workings of this revolutionary
+						software, register right away!
+						<div>
+							Workshop rate : 250/-
+							<h5>Timing:</h5>
+							24 th April, 2:30 PM – 5:30 PM<br>
+							Platform: MS Teams<br>
+							Registration Deadline: 23/04/2021 by 10PM
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
 				</div>
-			  </div>
-		      <div class="modal-footer">
-		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-		      </div>
-		    </div>
-		  </div>
+			</div>
 		</div>
 
-		<div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-		  <div class="modal-dialog modal-dialog-centered" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <h5 class="modal-title" id="exampleModalCenterTitle">SUBSURFACE INVESTIGATION AND PREPARATION OF GEOTECHNICAL DATA REPORT</h5>
-		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-		          <span aria-hidden="true">&times;</span>
-		        </button>
-			  </div>
-			  <div class="modal-subtitle">
-				<div>Dr. Sanyam Dangayach</div>
-				<div>Assistant Professor</div>
-				<div>Department of Civil Engineering<br>MNIT Jaipur</div>
-			</div>
-		      <div class="modal-body">
-		        <!-- In the present scenario, the ever increasing demand of modern buildings results in need of more column space, tall structures, ductile and faster construction time. Structures built with RCC do not provide such features and lack the ability to last for hundreds of years. Structural steel structures are becoming popular due to their superior ductile strength, load bearing capacity and sleek structural members. 
-				<br>
-				Such systems are employed in residential, commercial, industrial and offshore structural engineering areas. Mark your calendars and be present at this titillating Steel construction workshop with Dr. K. Baskar, who will take you to a whole different dimension in this interesting domain. -->
-				<div>
-						Workshop rate : 250/-
-						<h5>Timing:</h5>
-						25th April, 2:30PM – 5:30PM
-						Platform: MS Teams <br>
-						Registration Deadline: 23/04/2021 by 10PM <br>
-				</div>  
-			</div>
-			  
-		      <div class="modal-footer">
-		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-		      </div>
-		    </div>
-		  </div>
-		</div>
-
-		<div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-		  <div class="modal-dialog modal-dialog-centered" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <h5 class="modal-title" id="exampleModalCenterTitle">SELF COMPACTING CONCRETE</h5>
-		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-		          <span aria-hidden="true">&times;</span>
-		        </button>
-		      </div>
-		      <div class="modal-subtitle">
-				  <div>Dr. J. Karthikeyan</div>
-				  <div>Associate Professor</div>
-				  <div>Department of Civil Engineering<br>NIT Trichy</div>
-		      </div>
-		      <div class="modal-body">
-				The usage of conventional construction materials such as river sand and crushed stone cannot be appreciated for the upcoming decades, because over exploitation of those resources results in severe environmental issues. As a civil engineer have you ever thought about developing a sustainable infrastructure by minimizing the consumption of natural resources? Moments ‘21 brings you an exclusive workshop on producing sustainable self-compacting concrete (SCC) using induction furnace slag as coarse aggregate.
-				<br>
-				Workshop delivers you the fundamentals of self-compacting concrete and the key parameters to be considered during mix design. You will also get exposed to the sustainable slag aggregates and their treatment process that has to be done before using it in concrete. The application, difficulties and use cases on the field will also be addressed during this resourceful workshop by Dr. J. Karthikeyan. Don’t miss out on this opportunity and register right away!
-				<div>
-					    Workshop rate : 250/-
-						<h5>Timing:</h5>
-						24 th April, 10:00 AM-1:00 PM <br>
-						Platform: MS Teams <br>
-						Registration Deadline: 23/04/2021 by 10PM
-				</div>  
-			</div>
-		      <div class="modal-footer">
-		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-		      </div>
-		    </div>
-		  </div>
-		</div>
-		<div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+			aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered" role="document">
-			  <div class="modal-content">
-				<div class="modal-header">
-				  <h5 class="modal-title" id="exampleModalCenterTitle">STAAD PRO</h5>
-				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				  </button>
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalCenterTitle">SUBSURFACE INVESTIGATION AND PREPARATION OF
+							GEOTECHNICAL DATA REPORT</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-subtitle">
+						<div>Dr. Sanyam Dangayach</div>
+						<div>Assistant Professor</div>
+						<div>Department of Civil Engineering<br>MNIT Jaipur</div>
+					</div>
+					<div class="modal-body">
+						All structures are built either on the earth, in the earth, or with the earth.
+						To a civil engineer, earth, both soil and rock, not only forms the foundation for their
+						structures but also
+						constitutes a large portion of the construction materials. <br>
+						To know about the planning, execution, and interpretation of geotechnical site explorations in
+						natural soil and
+						rock concerning the design and construction of structures, register for the Moments '21 workshop
+						on
+						"Subsurface investigation and preparation of geotechnical data report" by Dr. Sanyam Dangayach,
+						Assistant
+						Professor at MNIT Jaipur.
+						<div>
+							Workshop rate : 250/-
+							<h5>Timing:</h5>
+							25th April, 2:30PM – 5:30PM <br>
+							Platform: MS Teams <br>
+							Registration Deadline: 23/04/2021 by 10PM <br>
+						</div>
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
 				</div>
-				<div class="modal-subtitle">
-					<div>Dr. Premalatha</div>
-					<div>Professor & HOD, Civil engineering</div>
-					<div>CARE group of institutions </div>
-				</div>
-				<div class="modal-body">
-					Ever wondered how engineers are able to design structures,be it steel, timber, concrete or aluminium, on time and in budget, regardless of complexity? Developed by Research Engineers International in 1997, STAAD software is a well known digital platform for conducting structural analysis and design of projects for civil engineers. Moments’19 presents an exclusive workshop on STAAD software where Dr. Premalatha would be giving a detailed mentoring all the way through!
-					<br><br>Perform comprehensive analysis and design for any size or type of structure faster than ever before using the new STAAD.Pro CONNECT Edition. Simplify your BIM workflow by using a physical model in STAAD.Pro that is automatically converted into the analytical model for your structural analysis.							   
-				  <br>
-				  Share synchronized models with confidence for multi-discipline team collaboration and, most importantly, deliver safe, cost-effective designs.
-				  <div>
-						Workshop rate : 350/-
-						<h5>Timing:</h5>
-						20th Oct,sunday afternoon
-				  </div>
-				</div>
-				<div class="modal-footer">
-				  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				</div>
-			  </div>
 			</div>
-		  </div>
+		</div>
+
+		<div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalCenterTitle">SELF COMPACTING CONCRETE</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-subtitle">
+						<div>Dr. J. Karthikeyan</div>
+						<div>Associate Professor</div>
+						<div>Department of Civil Engineering<br>NIT Trichy</div>
+					</div>
+					<div class="modal-body">
+						The usage of conventional construction materials such as river sand and crushed stone cannot be
+						appreciated for the upcoming decades, because over exploitation of those resources results in
+						severe environmental issues. As a civil engineer have you ever thought about developing a
+						sustainable infrastructure by minimizing the consumption of natural resources? Moments ‘21
+						brings you an exclusive workshop on producing sustainable self-compacting concrete (SCC) using
+						induction furnace slag as coarse aggregate.
+						<br>
+						Workshop delivers you the fundamentals of self-compacting concrete and the key parameters to be
+						considered during mix design. You will also get exposed to the sustainable slag aggregates and
+						their treatment process that has to be done before using it in concrete. The application,
+						difficulties and use cases on the field will also be addressed during this resourceful workshop
+						by Dr. J. Karthikeyan. Don’t miss out on this opportunity and register right away!
+						<div>
+							Workshop rate : 250/-
+							<h5>Timing:</h5>
+							24 th April, 10:00 AM-1:00 PM <br>
+							Platform: MS Teams <br>
+							Registration Deadline: 23/04/2021 by 10PM
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalCenterTitle">STAAD PRO</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-subtitle">
+						<div>Dr. Premalatha</div>
+						<div>Professor & HOD, Civil engineering</div>
+						<div>CARE group of institutions </div>
+					</div>
+					<div class="modal-body">
+						Ever wondered how engineers are able to design structures,be it steel, timber, concrete or
+						aluminium, on time and in budget, regardless of complexity? Developed by Research Engineers
+						International in 1997, STAAD software is a well known digital platform for conducting structural
+						analysis and design of projects for civil engineers. Moments’19 presents an exclusive workshop
+						on STAAD software where Dr. Premalatha would be giving a detailed mentoring all the way through!
+						<br><br>Perform comprehensive analysis and design for any size or type of structure faster than
+						ever before using the new STAAD.Pro CONNECT Edition. Simplify your BIM workflow by using a
+						physical model in STAAD.Pro that is automatically converted into the analytical model for your
+						structural analysis.
+						<br>
+						Share synchronized models with confidence for multi-discipline team collaboration and, most
+						importantly, deliver safe, cost-effective designs.
+						<div>
+							Workshop rate : 350/-
+							<h5>Timing:</h5>
+							20th Oct,sunday afternoon
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
 		<% include partials/footer.ejs %>
 
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+				integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+				crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+				integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+				crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+				integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+				crossorigin="anonymous"></script>
 
-		<script src="modal_link.js"></script>
-	</body>
+			<script src="modal_link.js"></script>
+</body>
+
 </html>
