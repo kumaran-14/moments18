@@ -11,3 +11,5 @@ Run app
 ```sh
 $ npm start
 ```
+
+Default Port: 3000
